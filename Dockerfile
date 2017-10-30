@@ -17,7 +17,8 @@ VOLUME     ${NIFI_HOME}/logs \
            ${NIFI_HOME}/flowfile_repository \
            ${NIFI_HOME}/database_repository \
            ${NIFI_HOME}/content_repository \
-           ${NIFI_HOME}/provenance_repository
+           ${NIFI_HOME}/provenance_repository \
+		   ${NIFI_HOME}/conf \
+		   ${NIFI_HOME}/lib 
 WORKDIR    ${NIFI_HOME}
-ENV qqq ppp
 CMD        ./bin/nifi.sh run
