@@ -19,4 +19,5 @@ VOLUME     ${NIFI_HOME}/logs \
            ${NIFI_HOME}/content_repository \
            ${NIFI_HOME}/provenance_repository
 WORKDIR    ${NIFI_HOME}
+ENV qqq ppp
 CMD        ./bin/nifi.sh run
